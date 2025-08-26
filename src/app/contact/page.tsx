@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Mail, Phone, MapPin, Clock, Send, MessageSquare, Users, Ambulance } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, Users, Ambulance } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -101,7 +101,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
-            We'd love to hear from you. Contact us for any inquiries, support, or to learn more about our programs.
+            We&apos;d love to hear from you. Contact us for any inquiries, support, or to learn more about our programs.
           </p>
         </div>
       </section>
@@ -279,7 +279,7 @@ export default function ContactPage() {
               </p>
               <div className="bg-gray-100 p-6 rounded-lg">
                 <p className="text-sm text-gray-600">
-                  <strong>Note:</strong> For security and privacy reasons, we don't display our exact address publicly. 
+                  <strong>Note:</strong> For security and privacy reasons, we don&apos;t display our exact address publicly. 
                   Please contact us directly for specific location details or to schedule a visit.
                 </p>
               </div>

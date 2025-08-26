@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Award, Users, MapPin, Calendar, FileText, Heart, Target, Eye } from 'lucide-react';
+import { Award, Users, MapPin, Calendar, Heart, Target, Eye } from 'lucide-react';
 
 export default function AboutPage() {
   const teamMembers = [

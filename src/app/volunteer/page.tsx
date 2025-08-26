@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Users, Heart, BookOpen, Ambulance, Leaf, Shield, Calendar, MapPin, Clock, Mail } from 'lucide-react';
+import { Users, Heart, BookOpen, Ambulance, Leaf, Shield, Clock, MapPin } from 'lucide-react';
 
 export default function VolunteerPage() {
   const [formData, setFormData] = useState({
@@ -447,8 +447,8 @@ export default function VolunteerPage() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "Volunteering with SARAS Foundation has been incredibly rewarding. 
-                Seeing the children's progress and smiles makes every moment worthwhile."
+                &ldquo;Volunteering with SARAS Foundation has been incredibly rewarding. 
+                Seeing the children&apos;s progress and smiles makes every moment worthwhile.&rdquo;
               </p>
             </div>
             
@@ -463,8 +463,8 @@ export default function VolunteerPage() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "The foundation's commitment to community development is inspiring. 
-                I've learned so much about social work and made lasting friendships."
+                &ldquo;The foundation&apos;s commitment to community development is inspiring. 
+                I&apos;ve learned so much about social work and made lasting friendships.&rdquo;
               </p>
             </div>
             
@@ -479,8 +479,8 @@ export default function VolunteerPage() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "Being part of the ambulance services team has taught me the importance 
-                of quick response and community care. It's a truly meaningful experience."
+                &ldquo;Being part of the ambulance services team has taught me the importance 
+                of quick response and community care. It&apos;s a truly meaningful experience.&rdquo;
               </p>
             </div>
           </div>

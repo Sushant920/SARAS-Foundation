@@ -267,7 +267,7 @@ export default function DonatePage() {
                 <BookOpen className="h-12 w-12 text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">₹1,000</h3>
-              <p className="text-gray-600">Supports a child's education for a month</p>
+              <p className="text-gray-600">Supports a child&apos;s education for a month</p>
             </div>
             
             <div className="text-center">

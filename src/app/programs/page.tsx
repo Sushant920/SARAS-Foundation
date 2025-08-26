@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Heart, BookOpen, Ambulance, Users, Leaf, Shield, Target, Award, Clock, MapPin } from 'lucide-react';
+import { Heart, BookOpen, Ambulance, Users, Leaf, Shield, Target, Award } from 'lucide-react';
 
 export default function ProgramsPage() {
   const programs = [
